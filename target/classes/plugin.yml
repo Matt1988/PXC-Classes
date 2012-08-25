@@ -1,0 +1,21 @@
+author: Matt1988
+description: A general Classes plugin for use on the Project Xerocraft server.
+generator: http://dinnerbone.com/minecraft/tools/pluginator/
+main: me.matt.plugins.pxcclasses.Pxcclasses
+name: PXC-Classes
+startup: postworld
+url: http://projectxerocraft.tk/
+version: '0.1'
+
+commands:
+  Cast:
+    aliases: [c]
+    description: Casts a Spell
+    usage: |
+           /<command> [spell] - cast the specified spell!
+  Create:
+    description: Casts a Spell
+    usage: |
+           /<command> - Shows help options for <command>.
+           /<command> classes - Shows the classes available to choose from.
+           /<command> [class] - Chooses a class.. Choose carefully. You only get to choose once!
