@@ -9,13 +9,8 @@ version: '0.1'
 
 commands:
   Cast:
-    aliases: [c]
-    description: Casts a Spell
+    aliases: [px, rp]
+    description: The root command for Project Xerocraft
     usage: |
-           /<command> [spell] - cast the specified spell!
-  Create:
-    description: Casts a Spell
-    usage: |
-           /<command> - Shows help options for <command>.
-           /<command> classes - Shows the classes available to choose from.
-           /<command> [class] - Chooses a class.. Choose carefully. You only get to choose once!
+           /<command> help - Gets specific help for the PX-Classes plugin!
+           /<command> help [command] gets help for a specific PX-Classes plugin command!

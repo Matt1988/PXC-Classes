@@ -1,0 +1,7 @@
+version: 0.01
+database:
+  username: pxcclasses
+  isolation: SERIALIZABLE
+  driver: org.sqlite.JDBC
+  password: walrus
+  url: jdbc:sqlite:{DIR}{NAME}.db
